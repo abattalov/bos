@@ -2,13 +2,14 @@ html, body, #root {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  color: red;
+  background-color: aquamarine;
+  padding-block: 10px;
 }
 
 .header-logo {
@@ -17,14 +18,20 @@ html, body, #root {
 
 .header-logo a {
   text-decoration: none;
+  color: black;
 }
 
 .header-nav-links {
-
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 .header-nav-links a {
   text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  padding-right: 10px;
 }
 
 .page-container {
@@ -37,10 +44,24 @@ html, body, #root {
   flex: 1;
 }
 
+.social-media svg{
+  color: white;
+  margin: 20px;
+  font-size:  70px;
+  cursor: pointer;
+}
+
 .footer {
   margin-top: auto;
   height: 200px;
   flex-shrink: 0;
   background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
   color: white;
 }
