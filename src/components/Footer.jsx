@@ -11,13 +11,18 @@ export default function Footer() {
 
     return (
         <div className='footer'>
-            <div className='social-media'>
-            <Badge onClick={navigateToFacebook}>
-                <FacebookIcon/>
-            </Badge>
-            <Badge>
-                <InstagramIcon/>
-            </Badge>
+            <div>
+                <div className='social-media'>
+                <Badge onClick={navigateToFacebook}>
+                    <FacebookIcon/>
+                </Badge>
+                <Badge>
+                    <InstagramIcon/>
+                </Badge>
+                </div>
+            </div>
+            <div>
+                <h3>Telephone: 218-461-2118</h3>
             </div>
             <div className='copywrite'>&#169; 2023 Beacon of Strength</div>
         </div>

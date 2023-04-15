@@ -5,10 +5,13 @@ function Home() {
   return (
     <div>
         <div className='header-container'>
-          <h1>Beacon of Strength</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo vitae eveniet deserunt ipsum rem fuga veritatis eum earum perspiciatis enim, vero sit labore commodi error excepturi provident at esse dignissimos!</p>
+          <h1 className='title'>Beacon of Strength</h1>
+          <div className='intro'>
+            <p>At Beacon of Strength, we are dedicated to empowering our clients with the resources and support they need to achieve optimal mental health and well-being. We believe that everyone deserves the opportunity to reach their full potential in life, and we are committed to providing the tools and guidance necessary to facilitate this growth. Our mission is centered around equipping our clients with the knowledge and skills to not only strengthen their mental health, but to also cultivate a positive outlook and achieve their personal goals. With a focus on compassionate care and evidence-based practices, we are committed to helping our clients transform their lives and thrive in all aspects of their journey.</p>
+          </div>
+          <div className='page-divider'></div>
           <div className="services">
-            <h2>Services</h2>
+            <h2 className='title'>Services</h2>
             <p>
               Are you struggling with mental health issues or facing difficult life circumstances? Our Licensed Clinical Social Workers (LCSWs) are here to help. At our clinic, we offer a range of services designed to support your emotional and behavioral well-being.
             </p>
@@ -58,11 +61,13 @@ function Home() {
                 And our education and outreach services help raise awareness about mental health and promote wellness in our community.
               </p>
             </div>
-            
-            <p>
-              At our clinic, we're committed to providing compassionate and personalized care to help you achieve your goals and improve your quality of life. Contact us today to learn more about our services and how we can help you.
-            </p>
           </div>
+          <div className='page-divider'></div>
+          <p>
+            At our clinic, we're committed to providing compassionate and personalized care to help you achieve your goals and improve your quality of life. Contact us today to learn more about our services and how we can help you.
+          </p>
+          <div className='page-divider'></div>
+          <h2 className='title'>Location</h2>
           <Link to='/contact'>
             <button>Schedule Appointment</button>
           </Link>

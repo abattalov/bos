@@ -66,13 +66,38 @@ html, body, #root {
   color: white;
 }
 
+.intro {
+  width: calc(100% - 200px);
+  margin-left: 100px;
+}
+
 .services {
   display: flex;
   flex-wrap: wrap;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .services-column {
   flex-basis: calc(33.33% - 20px);
   padding: 10px;
   box-sizing: border-box;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.page-divider {
+  border-top: 3px solid black;
+  margin: 20px 0;
+  width: calc(100% - 100px);
+  margin-left: 50px;
 }
