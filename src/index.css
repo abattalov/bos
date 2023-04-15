@@ -101,3 +101,10 @@ html, body, #root {
   width: calc(100% - 100px);
   margin-left: 50px;
 }
+
+/* .location {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+} */

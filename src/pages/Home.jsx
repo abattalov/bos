@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Location from '../components/Location';
 
 function Home() {
   return (
@@ -68,6 +69,9 @@ function Home() {
           </p>
           <div className='page-divider'></div>
           <h2 className='title'>Location</h2>
+          <div className='location-container'>
+            <Location/>
+          </div>
           <Link to='/contact'>
             <button>Schedule Appointment</button>
           </Link>
