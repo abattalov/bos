@@ -65,3 +65,14 @@ html, body, #root {
 .footer p {
   color: white;
 }
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-column {
+  flex-basis: calc(33.33% - 20px);
+  padding: 10px;
+  box-sizing: border-box;
+}
