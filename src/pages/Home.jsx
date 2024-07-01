@@ -5,7 +5,7 @@ import Location from '../components/Location';
 function Home() {
   return (
     <div>
-        <div className='header-container'>
+        <div className='page-container'>
           <h1 className='title'>Beacon of Strength</h1>
           <div className='intro'>
             <p>At Beacon of Strength, we are dedicated to empowering our clients with the resources and support they need to achieve optimal mental health and well-being. We believe that everyone deserves the opportunity to reach their full potential in life, and we are committed to providing the tools and guidance necessary to facilitate this growth. Our mission is centered around equipping our clients with the knowledge and skills to not only strengthen their mental health, but to also cultivate a positive outlook and achieve their personal goals. With a focus on compassionate care and evidence-based practices, we are committed to helping our clients transform their lives and thrive in all aspects of their journey.</p>
